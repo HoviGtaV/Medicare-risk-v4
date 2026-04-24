@@ -1,0 +1,11 @@
+file,exists
+score_batch_v4.py,True
+models_v4/final/model.cbm,True
+models_v4/final/metrics_test.json,True
+submission/docs/DATA_DICTIONARY_V4_FULL.md,True
+submission/docs/PIPELINE_TRACE.md,True
+submission/report/report_one_page_final.md,True
+submission/slides/presentation_final_content.md,True
+submission/video/video_demo_script_final.md,True
+submission/monitoring/score_drift_summary.csv,True
+submission/monitoring/feature_drift_summary.csv,True
