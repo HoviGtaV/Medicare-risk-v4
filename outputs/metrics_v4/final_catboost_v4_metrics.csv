@@ -1,0 +1,2 @@
+model,n_final_train,n_test,final_train_positive_count,test_positive_count,final_train_positive_rate,test_positive_rate,iterations_used,auprc_test,roc_auc_test,precision_at_100_test,precision_at_500_test,precision_at_1000_test,precision_at_5000_test,recall_at_500_test,recall_at_1000_test,lift_at_500_test,lift_at_1000_test
+catboost_final_v4,5867926,1259335,684,151,0.00011656588716353955,0.0001199045527996919,203,0.0027840932958608107,0.8208613699914057,0.01,0.01,0.01,0.0054,0.033112582781456956,0.06622516556291391,83.39966887417219,83.39966887417219

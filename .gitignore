@@ -1,0 +1,39 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Local-only data
+data/raw/
+data/interim/
+data/processed/*.parquet
+data/processed/*.csv
+
+# Local archives and review bundles
+_archive_local_not_for_git/
+final_repo_review_bundle_no_data/
+final_repo_review_bundle_no_data.zip
+final_submission_review_no_data/
+final_submission_review_no_data.zip
+*.zip
+
+# Large local-only report artifacts
+reports/tables/*.csv
+models_v3/final/test_scored.parquet
+
+# Keep demo files
+!examples/sample_input_v3.csv
+!examples/sample_output_v3.csv
+!examples/sample_output_docker_v3.csv
+
+.venv_ml/
+
+data/
+
+_archive_local_not_for_git/
+
+insurance-fraud-project/
+
+docs/history_reference/v3_results_snapshot/
+
+docs/history_reference/v3_submission_snapshot/

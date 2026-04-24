@@ -1,0 +1,20 @@
+{
+  "model": "catboost",
+  "n_train": 4637638,
+  "n_valid": 1230288,
+  "train_positive_count": 516,
+  "valid_positive_count": 168,
+  "train_positive_rate": 0.00011126353544627675,
+  "valid_positive_rate": 0.00013655339237641918,
+  "best_iteration": 130,
+  "auprc_valid": 0.0034991097001825316,
+  "roc_auc_valid": 0.8698071752194521,
+  "precision_at_100_valid": 0.01,
+  "precision_at_500_valid": 0.016,
+  "precision_at_1000_valid": 0.013,
+  "precision_at_5000_valid": 0.0056,
+  "recall_at_500_valid": 0.047619047619047616,
+  "recall_at_1000_valid": 0.07738095238095238,
+  "lift_at_500_valid": 117.17028571428573,
+  "lift_at_1000_valid": 95.20085714285715
+}

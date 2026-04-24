@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.git/
+freeze_v1_20260410_1200/
+review_package_min/
+outputs/
+data/
+models/
+models_v3/logreg/
+models_v3/catboost/
+models_v3/catboost_alt/
+examples/sample_output_v3.csv
+examples/sample_output_docker_v3.csv
+
+# keep only final model from models_v3
+!models_v3/
+models_v3/*
+!models_v3/final/
+models_v3/final/*
+!models_v3/final/model.cbm
+
+# keep sample input for demo
+!examples/
+examples/*
+!examples/sample_input_v3.csv
+
+# keep main files needed for image build
+!Dockerfile
+!requirements.txt
+!score_batch_v3.py

@@ -1,0 +1,2 @@
+model,n_train,n_valid,train_positive_count,valid_positive_count,train_positive_rate,valid_positive_rate,best_iteration,auprc_valid,roc_auc_valid,precision_at_100_valid,precision_at_500_valid,precision_at_1000_valid,precision_at_5000_valid,recall_at_500_valid,recall_at_1000_valid,lift_at_500_valid,lift_at_1000_valid
+catboost,4637638,1230288,516,168,0.00011126353544627675,0.00013655339237641918,130,0.0034991097001825316,0.8698071752194521,0.01,0.016,0.013,0.0056,0.047619047619047616,0.07738095238095238,117.17028571428573,95.20085714285715
